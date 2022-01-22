@@ -1,0 +1,25 @@
+/*
+* Contact Form 7 Styling overide
+*/
+.wpcf7 form .wpcf7-response-output {
+  border-color: #f46e38 !important;
+  padding: 1rem !important;
+}
+
+.full-height-column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 980px) {
+  .et_pb_menu .et_pb_menu__wrap {
+    flex-wrap: nowrap !important;
+  }
+}
+
+a.et_pb_menu__icon,
+button.et_pb_menu__icon {
+  padding-left: 11px !important;
+}

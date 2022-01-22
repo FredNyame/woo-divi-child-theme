@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+@import "./_core.css";
+
+@import "tailwindcss/components";
+@import "./_woocommerce-overide.css";
+@import "./_woo-pagination.css";
+@import "./_wp7-form-overide.css";
+
+@import "tailwindcss/utilities";

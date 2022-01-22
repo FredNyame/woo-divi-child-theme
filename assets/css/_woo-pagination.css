@@ -1,0 +1,28 @@
+.mcone-woo-pagination {
+  @apply flex items-center justify-center space-x-2;
+}
+
+.mcone-woo-pagination {
+  span,
+  a {
+    @apply flex items-center justify-center w-12 h-10 text-orange bg-gray-200 text-lg font-serrat font-bold;
+    /*     font-weight: bold !important;
+    padding: 0.5rem 1rem !important; */
+  }
+
+  span {
+    &.current {
+      @apply bg-orange text-white;
+    }
+  }
+
+  a {
+    svg {
+      @apply font-bold;
+    }
+  }
+}
+
+/* .mcone-woo-pagination span.current {
+  @apply bg-white text-orange;
+} */
