@@ -1,5 +1,6 @@
 @import "tailwindcss/base";
 @import "./_core.css";
+@import "./_form.css";
 
 @import "tailwindcss/components";
 @import "./_woocommerce-overide.css";

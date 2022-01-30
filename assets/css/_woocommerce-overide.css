@@ -139,7 +139,7 @@ button[type="submit"],
 
 /*Shop Module Count Indicator*/
 .woocommerce-result-count {
-  font-size: 1.125rem !important;
+  font-size: 1rem !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -155,7 +155,7 @@ button[type="submit"],
 .orderby,
 .woocommerce div.product form.cart .variations td select {
   font-size: 1rem !important;
-  padding: 0.5rem 1rem !important;
+  padding: 0.5rem !important;
 }
 
 /**Input Qty*/
@@ -242,8 +242,8 @@ select,
   border: 1px solid #eee !important;
   background-color: #fff !important;
   color: #333 !important;
-  padding-top: 16px !important;
-  padding-bottom: 16px !important;
+  /*   padding-top: 16px !important;
+  padding-bottom: 16px !important; */
 }
 
 .woocommerce .quantity input.qty,
@@ -274,11 +274,12 @@ label {
   font-weight: 400 !important;
   margin-bottom: 0.85rem !important;
 }
+
 input,
 textarea,
 select {
   width: 100%;
-  padding: 1rem 0.5rem !important;
+  padding: 0.5rem !important;
   border: 1px solid #eee !important;
 }
 input[type="submit"],
@@ -291,6 +292,7 @@ button[type="submit"] {
   text-transform: uppercase !important;
   cursor: pointer;
   border: 0px !important;
+  padding: 1rem !important;
 }
 
 /*
@@ -376,4 +378,11 @@ Woocommerce Notice Styling
 */
 .woocommerce-store-notice {
   background-color: #141211 !important;
+}
+
+/**
+* Cart button styling
+*/
+.cart.woocommerce-cart-form__contents button[type="submit"] {
+  padding: 0.5rem 1rem !important;
 }
