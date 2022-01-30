@@ -385,4 +385,7 @@ Woocommerce Notice Styling
 */
 .cart.woocommerce-cart-form__contents button[type="submit"] {
   padding: 0.5rem 1rem !important;
+  &:hover {
+    padding: 0.5rem 1rem !important;
+  }
 }
